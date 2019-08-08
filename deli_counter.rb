@@ -10,9 +10,6 @@ def line(array)
   end
 end
 
-katz_deli = ["Grace", "Kent", "Ada"]
-line(katz_deli)
-
 def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.size + 1} in line."
   array << name
